@@ -1,0 +1,139 @@
+/* Mbile phone responsiveness */
+
+@media (max-width: 767px) and (min-width: 50px) {
+  * {
+    margin: 0%;
+    padding: 0%;
+  }
+  :root {
+    --page-title-display: block;
+  }
+  body {
+    overflow-x: hidden;
+    display: inline;
+    font-size: 16px;
+    line-height: 1.5;
+    width: auto;
+  }
+
+  /* first img of all pages */
+  .decor-gyps a img {
+    width: 20rem;
+    overflow: hidden;
+  }
+
+  /* header + Navbar  */
+  .navbar {
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+    overflow: hidden;
+    margin: auto;
+    background-color: none;
+  }
+  .navbar button {
+    margin: auto;
+    justify-content: center;
+  }
+  .dropdown-menu {
+    margin: auto;
+    background-color: none;
+    justify-content: center;
+  }
+  .dropdown-item {
+    margin: auto;
+    background-color: none;
+    justify-content: center;
+  }
+  .main-container {
+    overflow: hidden;
+    flex-direction: column;
+  }
+
+  /* main conatiner/ Sections */
+  .main-container-2 {
+    flex-direction: column;
+    display: inline;
+  }
+  .main-container-2 .downinfo {
+    flex-direction: column;
+    display: inline;
+    border-left: hidden;
+    border-left: none;
+    width: auto;
+    align-items: center;
+  }
+  .main-container-2 .downinfo .page-image img{
+    width: 90%;
+   overflow: hidden;
+  }
+
+  .img-para {
+    display: inline;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .img-para img {
+    padding-bottom: 1rem;
+  }
+  .card-container-1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-container-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-container-1 {
+    flex-direction: column;
+  }
+  .cards {
+    padding-bottom: 1rem;
+  }
+  .card {
+    width: 25rem;
+  }
+  .ans-ques {
+    flex-direction: column;
+  }
+
+  /* All Pages Styling */
+
+  .container-page .page-image img {
+    width: 20rem;
+  }
+  .wtsapp a img {
+    width: 15rem;
+  }
+}
+
+@media  (min-width: 768px) {
+  /* (max-width: 3605px) and */
+  
+   
+
+  .navbar button {
+    margin: auto;
+    justify-content: center;
+  }
+  .dropdown-item {
+    margin: auto;
+    background-color: none;
+    justify-content: center;
+  }
+  .cards {
+    margin: auto;
+    overflow: hidden;
+    align-items: center;
+  }
+   
+
+  .main-container-2 .downinfo .page-image img{
+    width: 85%;
+   overflow: hidden;
+  }
+
+
+
+  
+}

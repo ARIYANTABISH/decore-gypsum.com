@@ -1,0 +1,234 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  direction: rtl;
+  width: fit-content;
+  font-family: -apple-system, blinkmacsystemfont, "segoe ui", roboto,
+    "oxygen-sans", ubuntu, cantarell, "helvetica neue", helvetica, arial,
+    sans-serif;
+  background-color: rgba(253, 253, 253, 0.664);
+  overflow-x: hidden;
+  font-weight: 400;
+  scroll-behavior: smooth;
+}
+
+/* front page styling code  */
+
+.decor-gyps {
+  text-align: center;
+} 
+.heading{
+  font-size: 2.1rem;
+}
+.whatsapp a img {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  bottom: 160px;
+  text-align: start;
+  z-index: 100%;
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px #999;
+}
+.social-acounts .insta img { 
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  bottom: 110px;
+  text-align: end;
+  z-index: 100%;
+  box-shadow: 2px 2px 3px #999;
+}
+.twitter a img {
+  margin-left: 10%;
+  display: grid;
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  bottom: 60px;
+  text-align: center;
+  z-index: 100%;
+  box-shadow: 2px 2px 3px #999;
+  border-radius: 50%;
+}
+ 
+.pinterest a img {
+  margin-left: 10%;
+  display: grid;
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  bottom: 10px;
+  text-align: center;
+  z-index: 100%;
+  box-shadow: 2px 2px 3px #999;
+  border-radius: 50%;
+}
+.decor-gyps a img {
+  width: 25rem;
+}
+
+.main-container {
+  margin-left: 4%;
+  margin-right: 6%;
+}
+p {
+  font-size: 17px;
+}
+.img-para {
+  display: flex;
+}
+.img-para p {
+  font-size: 1.2rem;
+  padding-top: 2rem;
+}
+.img-para img {
+  width: 35rem;
+}
+.call-number {
+  background-color: blue;
+
+  width: fit-content;
+  text-align: center;
+  border-radius: 20px;
+}
+.call-number a {
+  margin: auto;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+.call-number a:hover {
+  border-radius: 20px;
+  background-color: rgb(9, 136, 255);
+  color: blue;
+}
+.divided-ementor {
+  height: 0.1rem;
+  color: #000;
+  background: #000;
+}
+
+.h1 {
+  text-align: center;
+}
+
+.card-container-1 {
+  display: flex;
+  margin: auto;
+}
+.card-container-1 .card-title {
+  color: blue;
+}
+.paragraphs {
+  background-color: rgb(179, 226, 240);
+  font-size: 20px;
+}
+.card-container-2 {
+  display: flex;
+  text-align: center;
+}
+.cards {
+  padding-left: 1rem;
+}
+.card {
+  width: 15rem;
+}
+
+ 
+.form-check-input {
+  position: absolute;
+}
+/* All Pages Styling */
+
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+a {
+  text-decoration: none;
+}
+.container-page .bord {
+  font-size: 2.1rem;
+  font-weight: bold;
+  text-align: center;
+}
+.main-container .container-page p {
+  text-align: center;
+}
+
+.container-page p a {
+  font-weight: bold;
+}
+.container-page p a::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+.page-image img {
+  width: 44rem;
+}
+.downinfo1 {
+  width: 70%;
+  border-left: 0.1rem solid black;
+}
+.downinfo {
+  width: 70%;
+  border-left: 0.1rem solid black;
+}
+.wtsapp {
+  flex-direction: column;
+}
+.wtsapp .whatsapNO img {
+  width: 20rem;
+}
+.wtsapp .cal img {
+  width: 20rem;
+}
+.main-container-2 {
+  display: flex;
+}
+
+.goToTop::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0.3em solid;
+  border-left: 0.3em solid transparent;
+}
+
+.side-card-container {
+  padding-right: 1rem;
+}
+.side-cards {
+  padding-bottom: 1rem;
+}
+ 
+.side-cards a {
+  color: #000;
+}
+.side-cards a:hover {
+  color: blue;
+}
+
+footer {
+  text-align: center;
+}
